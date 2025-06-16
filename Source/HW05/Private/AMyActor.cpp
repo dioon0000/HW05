@@ -55,8 +55,3 @@ int AAMyActor::CreateEvent()
 	if(Event) UE_LOG(LogTemp, Error, TEXT("Event Occurred!"));
 	return Event;
 }
-
-/*
-- 10회 이동시 각 스텝마다, 50% 확률로 랜덤하게 이벤트가 발생합니다.(발생 시키는 부분도 구현하셔야 합니다.)  각  스텝마다 이벤트 발생여부를 출력합니다.
-- 10회 이동후에는 총 이동거리와 총 이벤트 발생횟수를 출력 합니다.
-*/
